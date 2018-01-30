@@ -6,10 +6,29 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXFileReference section */
+		427D55082001F2FD008FA3D7 /* part5.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = part5.py; sourceTree = "<group>"; };
+		427D55092001F44D008FA3D7 /* weekly.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = weekly.py; path = sources/weekly.py; sourceTree = "<group>"; };
+		427D550A2001FC27008FA3D7 /* sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sources; sourceTree = "<group>"; };
+		42C1B05E2002050700F5C7C1 /* part6.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = part6.py; sourceTree = "<group>"; };
+		42CB918C2020BD56006ABE19 /* part4_1.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = part4_1.py; sourceTree = "<group>"; };
+		42D2BD551FE62B510018CF9B /* helloworld.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = helloworld.py; sourceTree = "<group>"; };
+		42D2BD571FEBD6CF0018CF9B /* part3.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = part3.py; sourceTree = "<group>"; };
+		42D2BD581FEF91EB0018CF9B /* part4.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = part4.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		42D2BD4A1FE6277A0018CF9B = {
 			isa = PBXGroup;
 			children = (
+				427D550A2001FC27008FA3D7 /* sources */,
+				427D55092001F44D008FA3D7 /* weekly.py */,
+				42C1B05E2002050700F5C7C1 /* part6.py */,
+				427D55082001F2FD008FA3D7 /* part5.py */,
+				42D2BD581FEF91EB0018CF9B /* part4.py */,
+				42CB918C2020BD56006ABE19 /* part4_1.py */,
+				42D2BD571FEBD6CF0018CF9B /* part3.py */,
+				42D2BD551FE62B510018CF9B /* helloworld.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +42,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6;
+			buildWorkingDirectory = /Users/yanzhili/Desktop/sw/xcode_pro/mypython;
 			dependencies = (
 			);
 			name = mypython;
